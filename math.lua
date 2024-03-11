@@ -1,0 +1,12 @@
+x = "5"
+local y = tonumber(x)
+print(y, type(y))
+print(5 + 5)
+print(5 - 5)
+print(5 * 5)
+print(5 ^ 5)
+print(5 / 5)
+print(5 // 5 )
+print(5 % 5)
+print(10 / 2.5)
+print(math.pi)
