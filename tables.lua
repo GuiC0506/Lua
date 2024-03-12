@@ -1,4 +1,12 @@
-local random = { 5, 1, 3, 13, 11, 15 }
+-- like arrays
+local random = {}
+
+for i=0, 10 do
+    local value = math.random(1, 25);
+    table.insert(random, value)
+end
+
+table.remove(random, 3)
 
 local function binary_search(sorted_array, item)
     local lower = 1
@@ -24,7 +32,30 @@ local function binary_search(sorted_array, item)
 end
 
 table.sort(random)
-print(random[1])
 
 local item = binary_search(random, 11)
 print(item)
+print(table.concat(random, " - "))
+
+-- like multidimensions arrays
+local multi_dimension_table = {
+    { 1, 2, 3, 4 },
+    { 5, 6, 7, 8 },
+    { 9, 10, 11, 12 },
+}
+
+-- like hash tables
+local hash_table = {
+    person1 = {
+        name = "churros",
+        age = 7
+    },
+
+    person2 = {
+        name = "Guilherme",
+        age = 19
+    }
+}
+
+print(multi_dimension_table[2][1])
+print(hash_table.person1.name)
