@@ -45,7 +45,7 @@ local multi_dimension_table = {
 }
 
 -- like hash tables
-local hash_table = {
+_G.hash_table = {
     person1 = {
         name = "churros",
         age = 7
