@@ -1,8 +1,7 @@
 -- if statment only executes if condition is true
 
 if false or nil or true then
-    print("churros here")
-end
+    print("churros here") end
 
 -- only false and nil represents false in lua
 if false or nil then
@@ -45,3 +44,24 @@ end
 if not (his_age > 18) then
     print("His name is not churros")
 end
+
+
+if name == "churross" then
+    print("name is equal to churros")
+elseif name == "churrosss" then
+    print("anything")
+else
+    print("name is not equal to churros")
+end
+
+
+
+
+
+
+
+
+
+
+
+
