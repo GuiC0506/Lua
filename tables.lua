@@ -54,8 +54,12 @@ local hash_table = {
     person2 = {
         name = "Guilherme",
         age = 19
-    }
+    },
+
+    say_hello = function(callback)
+        callback()
+    end
 }
 
 print(multi_dimension_table[2][1])
-print(hash_table.person1.name)
+print(hash_table.say_hello( function() print("Hello world") end ))
