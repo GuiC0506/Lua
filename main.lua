@@ -5,6 +5,7 @@
 -- ]]
 
 Global_variable = "global"
+Churros = "churros"
 
 -- printing text
 print("Hello world")
