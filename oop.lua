@@ -54,3 +54,5 @@ print(churros_project.status)
 
 churros_project:change_status("altered")
 print(churros_project.status)
+
+-- this is simply better than java\C# OOP
