@@ -1,8 +1,0 @@
-Hello lua1!
-Hello lua2!
-Hello lua3!
-Hello lua4!
-Hello lua5!
-8877454
-
-
